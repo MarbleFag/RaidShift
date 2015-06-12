@@ -13,10 +13,13 @@
 /*Under Construction*/
 
 
-/*Force Dark, don't remove*/
+
+
+
+  /*Force Dark, don't remove*/
 @import url( https://voat.co/content/whoaverse-Dark.css );
 
-/*Background*/
+/*Body*/
 body {
   background: url("https://i.imgur.com/tqtsZk1.png");
 }
@@ -25,6 +28,10 @@ body {
 .tabmenu li.disabled a {
     background: #e74c3c;
     color: white
+}
+
+.tabmenu li.disabled a:hover {
+    background: #e74c3c;
 }
 
 .tabmenu li.selected a {
@@ -61,4 +68,50 @@ body {
     -o-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
     border: 1px solid #e74c3c;
+}  
+
+/*Please do not Remove*/
+.footer:before {
+    color: #CCC;
+    content: "/v/RaidShift theme";
+    display: block;
+    font-size: 15px;
+    margin: 0 0 15px;
+    color: #E74C3C
 }
+
+
+/*Top Bar*/
+.sr-list li a {
+    color: #e74c3c;
+}
+.sr-list li a:hover {
+    color: #666;
+    -moz-transition: 0.2s color;
+    -webkit-transition: 0.2s color;
+    -khtml-transition: 0.2s color;
+    -o-transition: 0.2s color;
+    -ms-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.flat-list li:hover {
+    color: #e74c3c
+}
+
+.whoaSubscriptionMenu li ul li a:hover {
+    background: #e74c3c
+}
+
+
+.whoaSubscriptionMenu li a:hover {
+    color: white;
+}
+
+.whoaSubscriptionMenu li a {
+    color: white;
+}
+
+
+
+.drop-arrow { display: none }
