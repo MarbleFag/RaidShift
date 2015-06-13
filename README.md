@@ -1,7 +1,7 @@
 # RaidShift
 RaidShift is a Dark CSS theme for [Voat](https://voat.co). You can find out more about it at [/v/RaidShift](https://voat.co/v/RaidShift).
 
-![](https://i.imgur.com/XcZ1Vq6.png "Preview of theme on a mock-up")
+![](https://i.imgur.com/VfWn7y1.png "Preview of theme")
 
 # How to Install
 
