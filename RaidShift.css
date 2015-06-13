@@ -1,5 +1,6 @@
 
 
+
 /* 
  /$$$$$$$            /$$       /$$  /$$$$$$  /$$       /$$  /$$$$$$   /$$    
 | $$__  $$          |__/      | $$ /$$__  $$| $$      |__/ /$$__  $$ | $$    
@@ -213,4 +214,33 @@ body {
   height: 31px !important;
   width: 112px !important;
   margin: 0;
+}    
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: #e64c3c;
+    color: white;
+}
+ 
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+   
+::-ms-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+  
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #e64c3c;
+    color: white;
 }
