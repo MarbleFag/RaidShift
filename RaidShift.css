@@ -1,15 +1,7 @@
-/* 
- /$$$$$$$            /$$       /$$  /$$$$$$  /$$       /$$  /$$$$$$   /$$    
-| $$__  $$          |__/      | $$ /$$__  $$| $$      |__/ /$$__  $$ | $$    
-| $$  \ $$  /$$$$$$  /$$  /$$$$$$$| $$  \__/| $$$$$$$  /$$| $$  \__//$$$$$$  
-| $$$$$$$/ |____  $$| $$ /$$__  $$|  $$$$$$ | $$__  $$| $$| $$$$   |_  $$_/  
-| $$__  $$  /$$$$$$$| $$| $$  | $$ \____  $$| $$  \ $$| $$| $$_/     | $$    
-| $$  \ $$ /$$__  $$| $$| $$  | $$ /$$  \ $$| $$  | $$| $$| $$       | $$ /$$
-| $$  | $$|  $$$$$$$| $$|  $$$$$$$|  $$$$$$/| $$  | $$| $$| $$       |  $$$$/
-|__/  |__/ \_______/|__/ \_______/ \______/ |__/  |__/|__/|__/        \___/   sponsored in part by Marblecake™ :^)
-*/
 
-/*Flux was here ~<3*/
+/* RaidShift  sponsored in part by Marblecake™ :^) */
+
+
 
   /*Force Dark, don't remove*/
 @import url( https://voat.co/content/whoaverse-Dark.css );
@@ -22,7 +14,10 @@ body {
 /*Tabmenu / Submission Buttons Styling*/
 .tabmenu li.disabled a {
     background: #e74c3c;
-    color: white
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
 
 .tabmenu li.disabled a:hover {
@@ -50,15 +45,40 @@ body {
 .tabmenu li.disabled a.contribute {
     background: #e64c3c;
     color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
 .tabmenu li.selected a.contribute {
     background: #e64c3c;
     color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
+
+.tabmenu li.disabled a.contribute:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.tabmenu li.selected a.contribute:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+
 
 .btn-whoaverse.contribute {
     background: #e74c3c;
     color: white !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
 
 .btn-whoaverse.contribute:hover {
@@ -71,11 +91,20 @@ body {
 .btn-whoaverse {
     background: #e74c3c;
     color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
 
 .btn-whoaverse:hover {
     background: #B33326;
     color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.pagename a {
     transition: .25s ease-in-out; 
     -moz-transition: .25s ease-in-out; 
     -webkit-transition: .25s ease-in-out;
@@ -91,6 +120,9 @@ body {
 /*Container*/
 #container a {
     color: #E74C3C;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
 }
 
 #container a:hover {
@@ -122,6 +154,12 @@ body {
 /*Top Bar*/
 .sr-list li a {
     color: #e74c3c;
+    -moz-transition: 0.2s color;
+    -webkit-transition: 0.2s color;
+    -khtml-transition: 0.2s color;
+    -o-transition: 0.2s color;
+    -ms-transition: 0.2s color;
+    transition: 0.2s color;
 }
 .sr-list li a:hover {
     color: #666;
@@ -190,7 +228,11 @@ body {
     -moz-transition: .25s ease-in-out; 
     -webkit-transition: .25s ease-in-out; 
 }
-.footer a { color: #E74C3C !important }
+.footer a { 
+    color: #E74C3C !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; }
 .footer a:hover {
     color: #666 !important;
     transition: .25s ease-in-out; 
@@ -235,4 +277,4 @@ body {
 ::-webkit-selection {
     background-color: #e64c3c;
     color: white;
-}    
+}        
