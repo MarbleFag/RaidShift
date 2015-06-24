@@ -201,6 +201,212 @@ body {
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
 }
 
+
+
+/* RaidShift  sponsored in part by Marblecake™ :^) */
+
+
+
+  /*Force Dark, don't remove*/
+@import url( https://voat.co/content/whoaverse-Dark.css );
+
+/*Body*/
+body {
+  background: url("http://i.imgur.com/tqtsZk1.png");
+}
+
+/*Tabmenu / Submission Buttons Styling*/
+.tabmenu li.disabled a {
+    background: #e74c3c;
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.tabmenu li.disabled a:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+.tabmenu li.selected a:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.tabmenu li.selected a {
+    background: #e74c3c;
+    font-weight: bold
+}
+
+.tabmenu li.selected a:hover {
+    color: white;
+}
+
+.tabmenu li.disabled a.contribute {
+    background: #e64c3c;
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+.tabmenu li.selected a.contribute {
+    background: #e64c3c;
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.tabmenu li.disabled a.contribute:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.tabmenu li.selected a.contribute:hover {
+    background: #B44747;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+
+
+.btn-whoaverse.contribute {
+    background: #e74c3c;
+    color: white !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.btn-whoaverse.contribute:hover {
+    background: #B33326;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; 
+}
+
+.btn-whoaverse {
+    background: #e74c3c;
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.btn-whoaverse:hover {
+    background: #B33326;
+    color: white;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.pagename a {
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+.pagename a:hover{
+    color: #e74c3c;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; 
+}
+
+/*Container*/
+#container { max-width: 83% }
+
+#container a {
+    color: #E74C3C;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}
+
+#container a:hover {
+    color: #666;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; 
+}
+
+.submission {
+    background: #303030;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    -o-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
+}  
+
+/*Please do not Remove*/
+.footer:before {
+    color: #CCC;
+    content: "/v/RaidShift theme";
+    display: block;
+    font-size: 15px;
+    margin: 0 0 15px;
+    color: #E74C3C
+}
+
+
+/*Top Bar*/
+.sr-list li a {
+    color: #e74c3c;
+    -moz-transition: 0.2s color;
+    -webkit-transition: 0.2s color;
+    -khtml-transition: 0.2s color;
+    -o-transition: 0.2s color;
+    -ms-transition: 0.2s color;
+    transition: 0.2s color;
+}
+.sr-list li a:hover {
+    color: #666;
+    -moz-transition: 0.2s color;
+    -webkit-transition: 0.2s color;
+    -khtml-transition: 0.2s color;
+    -o-transition: 0.2s color;
+    -ms-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.flat-list li:hover {
+    color: #e74c3c
+}
+
+.whoaSubscriptionMenu li ul li a:hover {
+    background: #e74c3c
+}
+
+
+.whoaSubscriptionMenu li a:hover {
+    color: white;
+}
+
+.whoaSubscriptionMenu li a {
+    color: white;
+}
+
+
+
+.drop-arrow { display: none }  
+
+/*Sidebar Styling*/
+.side {
+    background: #303030;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    -o-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
+}
+
 /*Header*/
 /*Uncomment to make custom header, change imgur link to whatever background image you want, change height to appropriate pixels
 #header {
@@ -277,4 +483,124 @@ body {
 ::-webkit-selection {
     background-color: #e64c3c;
     color: white;
-}        
+}            
+
+#container .side .btn-whoaverse-paging { 
+    width: 280px;
+    height: 30px;
+    background: #e74c3c;
+    color: white !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+    border: solid #802626;
+    border-width: 1px 1px 2px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-bottom: 7px; }
+
+#container .side .btn-whoaverse-paging:hover {
+    background: #B33326;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; }
+
+.btn-unsub { 
+    background: #3D3D3D !important;
+    border: solid #252525 !important;
+    border-width: 1px 1px 2px !important;
+    border-radius: 3px; }
+
+.btn-unsub:hover {
+    background: #2D2D2D !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; }
+    
+#collapseOne.accordion-body.collapse.in div.accordion-inner button { width: 262px }
+
+
+/*Header*/
+/*Uncomment to make custom header, change imgur link to whatever background image you want, change height to appropriate pixels
+#header {
+    height: 200px;
+    background: url(https://i.imgur.com/tqtsZk1.png);
+} 
+*/
+
+/*Sprite Sheet*/
+.arrow-downvote, .arrow-downvoted, .arrow-upvote, .arrow-upvoted,
+.comment .arrow-downvote, .comment .arrow-downvoted, .comment .arrow-upvote, .comment .arrow-upvoted, #manage, #mail.nohavemail, #mail.havemail {
+    background-image: url(http://i.imgur.com/XWA6xnT.png);
+}
+
+/*Misc. Styling*/
+
+.titlebox h1 { text-align: center }
+.alert-h1 { color: #e74c3c }
+.alert-h2 { color: #e74c3c !important }
+.link .score.likes { color: #e74c3c }
+#loadmorebutton { color: white !important }
+#loadmorebutton:hover {
+    background: #B33326;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; 
+}
+.footer a { 
+    color: #E74C3C !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out; }
+.footer a:hover {
+    color: #666 !important;
+    transition: .25s ease-in-out; 
+    -moz-transition: .25s ease-in-out; 
+    -webkit-transition: .25s ease-in-out;
+}    
+
+#header-img {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 112px;
+  background-image: url(http://i.imgur.com/KBSUmBl.png);
+  height: 31px !important;
+  width: 112px !important;
+  margin: 0;
+}    
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: #e64c3c;
+    color: white;
+}
+ 
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+   
+::-ms-selection {
+    background-color: #e64c3c;
+    color: white;
+}
+  
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #e64c3c;
+    color: white;
+}  
+
+/*
+|=====================================================================|
+|End Default StyleSheet. Put additional modifications after this point|
+|=====================================================================|
+*/
