@@ -599,6 +599,77 @@ body {
     color: white;
 }  
 
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 20x;
+    height: 20px;
+    background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border: 2px solid #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E74C3C;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #B33326;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    color: #555555;
+}
+
+::-webkit-scrollbar-button {
+    border: 2px solid #222;
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: #333 !important;
+}
+
+::-webkit-scrollbar-button:end {
+    display: block;
+}
+
+::-webkit-scrollbar-button:start {
+    display: none;
+}
+
+::-webkit-scrollbar-button:vertical {
+    border-top: 0;
+}
+
+::-webkit-scrollbar-button:horizontal {
+    border-left: 0;
+}      
+
+::-webkit-scrollbar-button:vertical:increment {
+    background: url(https://i.imgur.com/cnCdjii.png) center center no-repeat;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background: url(https://i.imgur.com/EIH6Ksy.png) center center no-repeat;
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background: url(https://i.imgur.com/E5x08kl.png) center center no-repeat;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background: url(https://i.imgur.com/puvLlF9.png) center center no-repeat;
+}
+
+/*Moderator Message*/
+.helplink.message-moderators-temporary-class { background: url(https://i.imgur.com/L9TfiLU.png) no-repeat; font-size: 0px !important; position: relative; left: -160px; top: 4px; height: 15px; width: 15px; opacity: .5 }
+.helplink.message-moderators-temporary-class:hover { opacity: 1 }
+
 /*
 |=====================================================================|
 |End Default StyleSheet. Put additional modifications after this point|
