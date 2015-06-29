@@ -1,6 +1,4 @@
-
 /* RaidShift  sponsored in part by Marblecake™ :^) */
-
 
 
   /*Force Dark, don't remove*/
@@ -322,7 +320,9 @@ body {
 }
 
 /*Container*/
+@media (min-width: 1000px) { /* Limit container width to desktop users */
 #container { max-width: 83% }
+}
 
 #container a {
     color: #E74C3C;
@@ -669,6 +669,29 @@ body {
 /*Moderator Message*/
 .helplink.message-moderators-temporary-class { background: url(https://i.imgur.com/L9TfiLU.png) no-repeat; font-size: 0px !important; position: relative; left: -160px; top: 4px; height: 15px; width: 15px; opacity: .5 }
 .helplink.message-moderators-temporary-class:hover { opacity: 1 }
+
+/*Comment Expand Styling*/
+.comment a.expand { color: #666 !important; opacity: .5 }
+.comment a.expand:hover { opacity: 1; background: #e74c3c; color: black !important; }  
+
+/*Container Slide Up*/
+#container {
+	animation: fadebottom 0.3s 1;
+	-webkit-animation: fadebottom 0.3s 1; }
+
+@keyframes fadebottom {
+    0% { transform: translateY(80px); opacity: 0; }
+    100% { transform: translateX(0px); opacity: 1; } }
+
+@-webkit-keyframes fadebottom {
+	0% { transform: translateY(80px); opacity: 0; }
+        100% { transform: translateX(0px); opacity: 1; } }
+
+/*Border right on submission hover*/
+.submission:hover { border-right: 5px solid #E74C3C; }
+
+/*Misc*/
+.md h1 { color: #E74C3C }  
 
 /*
 |=====================================================================|
