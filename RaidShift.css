@@ -119,6 +119,7 @@ body {
     -ms-transition: 0.2s color;
     transition: 0.2s color;
 }
+#sr-header-area .selected a { color: #e74c3c; }
 .flat-list li:hover {
     color: #e74c3c
 }
