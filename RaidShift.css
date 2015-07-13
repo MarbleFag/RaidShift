@@ -1,3 +1,4 @@
+
 /* RaidShift  sponsored in part by Marblecake™ :^) */
 
 /*Force Dark, don't remove*/
@@ -61,6 +62,8 @@ body {
     -moz-transition: .25s ease-in-out;
     -webkit-transition: .25s ease-in-out;
 }
+#header-account > div > a:nth-child(9) { font-size: 0px; }
+#header-account > div > a:nth-child(9):before { content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAQAAAA3IEfJAAAAmklEQVQY023OPUoDYRhF4VtMJSmC67AIZAlByHICbiCdYGORdnYxTRagBAIBXYIIxkJJaZjie1KETBzjKc/h/Uk61Or8h51dXww0hqfgWuPqGN7x2IUF3pJ4QPN7lSXu41ur6oVK6yuKl7/HvSrB00V4Jlrbi8c/tbHBpKenWMdI8WPU6bG94iaJOxQrc3MrRTE7D2+d+HCbJAculZI5RIGDSAAAAABJRU5ErkJggg==); position: relative; top: 2px; }
 
 /*Container*/
 @media (min-width: 1000px) {
@@ -132,9 +135,6 @@ body {
 .whoaSubscriptionMenu li a {
     color: white;
 }
-.drop-arrow {
-    display: none
-}
 
 /*Sidebar Styling*/
 .side {
@@ -164,6 +164,16 @@ body {
 .titlebox h1 {
     text-align: center
 }
+.md blockquote { background: none !important;}
+.md blockquote p:before { 
+    content: "“" !important;
+    font-family: Georgia,serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E74C3C;
+    margin-right: 10px !important;
+    position: relative;
+    top: 9px; }
 .alert-h1 {
     color: #e74c3c
 }
@@ -374,7 +384,6 @@ body {
 }
 
 /*Misc*/
-
 .md h1 {
     color: #E74C3C
 }
