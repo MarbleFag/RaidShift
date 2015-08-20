@@ -91,6 +91,37 @@ body {
     -o-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .2);
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
 }
+/*sticky test*/
+.organic-listing {
+    margin: 0 5px;
+}
+
+    .organic-listing .entry:hover {
+        border: 0 !important;
+    }
+
+.organic-listing,
+.submission.link.stickied,
+.submission.link.promoted {
+    overflow: hidden;
+    padding: 0;
+    border-color: #fff;
+    box-shadow: 0 1px 3px 0 #ccb;
+}
+
+.dark .linklisting .submission.link.stickied {
+    box-shadow: none;
+}
+
+.linklisting .submission.link.stickied {
+    margin-bottom: 7px;
+    padding-top: 7px;
+}
+
+.listing-page .link:first-child.stickied {
+    margin: 0 0 10px !important;
+    border-width: 1px 0 1px 1px;
+}
 
 /*Please do not Remove*/
 .footer:before {
@@ -388,7 +419,7 @@ body {
 
 /*Border right on submission hover*/
 .submission:hover {
-    border-right: 5px solid #E74C3C;
+    border-right: 2px solid #E74C3C;
 }
 
 /*Misc*/
